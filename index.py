@@ -21,8 +21,11 @@ elif operacion == 3:
     resultado = num1 * num2
     print("El resultado es: " + str(resultado))
 elif operacion == 4:
-    resultado = num1 / num2
-    print("El resultado es: " + str(resultado))
+    if num2 > 0 :
+        resultado = num1 / num2
+        print("El resultado es: " + str(resultado))
+    else:
+        print("La operacion no se puede relizar ")
 else:
     print("Operacion no valida")
     
