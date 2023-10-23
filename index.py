@@ -1,4 +1,5 @@
-print("Estas es una calculadora simple")
+print("*** Calculadora Basica ***")
+print(" ")
 print("Ingresa el primer numero")
 num1 = int(input())
 print("Ingresa el segundo numero")
