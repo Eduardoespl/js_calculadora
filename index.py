@@ -37,8 +37,12 @@ elif operacion == 4:
     else:
         print("La operacion no se puede relizar ")
 elif operacion == 5:
-    resultado = num1 % num2
-    print("El resultado es: " + str(resultado))
+    if num2 > 0:
+        resultado = num1 % num2
+        print("El resultado es: " + str(resultado))
+    else:
+        print("La operacion no se puede realizar")
+        
 elif operacion == 6:
     print("Gracias por usar la calculadora")
 else:

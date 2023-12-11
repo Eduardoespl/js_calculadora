@@ -31,3 +31,7 @@ python calculadora.py
 ```
 
 ## Capturas de pantalla
+
+captura de pantalla programa corriendo
+
+![Alt text](./img/image.png)
