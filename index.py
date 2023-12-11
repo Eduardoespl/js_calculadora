@@ -12,6 +12,8 @@ print("1. Suma")
 print("2. Resta")
 print("3. Multiplicacion")
 print("4. Division")
+print("5. Residuo")
+print("6. Salir")
 operacion = int(input())
 
 #Aqui estan las operaciones y la logica de las operaciones
@@ -34,6 +36,11 @@ elif operacion == 4:
         print("El resultado es: " + str(resultado))
     else:
         print("La operacion no se puede relizar ")
+elif operacion == 5:
+    resultado = num1 % num2
+    print("El resultado es: " + str(resultado))
+elif operacion == 6:
+    print("Gracias por usar la calculadora")
 else:
     print("Operacion no valida")
     
